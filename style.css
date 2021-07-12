@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background-color: rgb(196, 205, 245);
+}
+/*******************
+header section strat
+*******************/
+header{
+  background-color: #562EFF;
+  width: 100%;
+  height: 94px;
+}
+nav{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 285px;
+  align-items: center;
+  top: 26px;
+}
+.logo{
+ display: flex;
+}
+.logo img{
+  width: 40px;
+  height: 51px;
+}
+.logo-text{
+  position: relative;
+  left: 16px;
+  top: 10px;
+  color: white;
+}
+.menu{
+  display: flex;
+  align-items: center;
+}
+.menu ul{
+  display: flex;
+}
+.menu ul li {
+  padding: 8px 36px;
+  list-style: none;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: white;
+}
+.pro img{
+  border-radius: 25px;
+  margin-left: 17px;
+}
+/*******************
+header section end
+*******************/
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.frist-section{
+  position: relative;
+  width: 870px;
+  height: 679px;
+  background-color: white;
+  padding: 33px 40px;
+  top: 33px;
+  margin-bottom: 60px;
+}
+.taitel{
+  color: #562EFF;
+  font-size: 24px;
+  margin-bottom: 33px;
+}
+.top-palyer{
+  margin-bottom: 30px;
+}
+.palyers{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.palyer{
+  display: flex;
+  align-items: center;
+}
+.palyer img{
+  width: 51px;
+  height: 51px;
+}
+.palyer-name{
+  margin-left: 16px;
+  font-size: 18px;
+}
+hr{
+  border: 1px solid rgb(141, 133, 133);
+  margin-bottom: 16px;
+}
+/* blogs section strat */
+.box{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 26px;
+}
+.box-one{
+  display: flex;
+  align-items: center;
+}
+.pic img{
+  width: 177px;
+  height: 177px;
+}
+.palyer-name span{
+  font-size: 16px;
+  color: #562EFF;
+  cursor: pointer;
+}
+/* blogs section end */
+/* course-section strat */
+.course-section{
+  width:870px;
+  height: 380px;
+  padding: 33px 40px;
+  background-color: white;
+  margin-bottom: 33px;
+}
+.course{
+  width: 900px;
+  height: 362px;
+  background: white;
+}
+.text-one{
+  font-size: 26px;
+  color: #562EFF;
+  margin-bottom: 16px;
+}
+.course-box{
+  display: flex;
+  justify-content: space-between;
+}
+.course-one{
+  width: 252px;
+  height: 270px;
+  box-shadow: 10px 10px 50px rgb(138, 132, 132);
+  border-radius: 5px;
+}
+.course-one span{
+  color: #ED6B4F;
+  padding-left: 13px;
+  font-size: 14px;
+}
+.box-img img{
+  width: 224px;
+  height: 104px;
+  padding: 8px 13px;
+}
+.box-text{
+  font-size: 18px;
+  padding-left: 13px;
+}
+.box-aitem{
+  display: flex;
+}
+.box-star{
+  width: 100%;
+  padding: 12px 10px ;
+}
+.box-star img{
+  width: 11px;
+  height: 11px;
+}
+.box-num{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.box-time{
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+.box-time p{
+  padding: 1px 9px;
+  color: #FF4A60;
+  background-color: #ff4a5f3b;
+  border-radius: 50px;
+}
+
+
+/* course-section end */
+
